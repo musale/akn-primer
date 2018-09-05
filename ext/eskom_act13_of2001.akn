@@ -1,0 +1,30 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17">
+    <act name="SouthAfricaNationalLaw">
+        <meta>
+            <identification source="#source">
+                <FRBRWork>
+                    <FRBRthis value="https://discover.sabinet.co.za/webx/access/netlaw/13_2001_eskom_conversion_act.htm"/>
+                    <FRBRuri value="https://discover.sabinet.co.za/webx/access/netlaw/13_2001_eskom_conversion_act.htm"/>
+                    <FRBRdate date="2001-07-01" name="enacted"/>
+                    <FRBRauthor href="https://discover.sabinet.co.za/"/>
+                    <FRBRcountry value="ZA"/>
+                    <FRBRnumber value="13"/>
+                    <FRBRname value="Act 13 of 2001"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="https://discover.sabinet.co.za/webx/access/netlaw/13_2001_eskom_conversion_act.htm"/>
+                    <FRBRuri value="https://discover.sabinet.co.za/webx/access/netlaw/13_2001_eskom_conversion_act.htm"/>
+                    <FRBRdate date="2016-07-12" name="validFrom"/>
+                    <FRBRauthor href="https://discover.sabinet.co.za/"/>
+                    <FRBRlanguage language="eng"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="https://discover.sabinet.co.za/webx/access/netlaw/13_2001_eskom_conversion_act.htmh"/>
+                    <FRBRuri value="https://discover.sabinet.co.za/webx/access/netlaw/13_2001_eskom_conversion_act.htm"/>
+                    <FRBRdate date="2018-09-04+01:00" name="transform"/>
+                    <FRBRauthor href="https://discover.sabinet.co.za/"/>
+                </FRBRManifestation>
+            </identification>
+        </meta>
+    </act>
+</akomaNtoso>

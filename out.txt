@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.6.5, pytest-3.6.2, py-1.5.4, pluggy-0.6.0
+rootdir: /Users/mus/Projects/akn-primer, inifile:
+plugins: betamax-0.8.1
+collected 1 item
+
+test_src.py F                                                            [100%]
+
+=================================== FAILURES ===================================
+____________________________ TestAct.test_valid_act ____________________________
+
+self = <test_src.TestAct testMethod=test_valid_act>
+
+    def test_valid_act(self):
+        """Check if an act is akomantoso 3.0 compliant."""
+        self.assertTrue(Act.validate(
+>           xsd_schema_path=self.xsd_schema_path, xml_doc_path=self.act_xml_path))
+E       AssertionError: False is not true
+
+test_src.py:15: AssertionError
+----------------------------- Captured stdout call -----------------------------
+[91m✘ Validation failed with error: [0m DocumentInvalid("Element '{http://www.akomantoso.org/3.0}akomaNtoso': No matching global declaration available for the validation root., line 1",)
+=========================== 1 failed in 0.28 seconds ===========================
