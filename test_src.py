@@ -7,7 +7,7 @@ class TestAct(unittest.TestCase):
 
     def setUp(self):
         self.xsd_schema_path = 'ext/akomantoso30.xsd'
-        self.act_xml_path = 'ext/eskom_act13_of2001.akn'
+        self.act_xml_path = 'ext/eskom_act13_of2001.xml'
 
     def test_valid_act(self):
         """Check if an act is akomantoso 3.0 compliant."""
@@ -17,4 +17,4 @@ class TestAct(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    Act.validate('ext/akomantoso30.xsd', 'ext/eskom_act13_of2001.akn')
+    Act.validate('ext/akomantoso30.xsd', 'ext/eskom_act13_of2001.xml')

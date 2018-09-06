@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17">
     <act name="SouthAfricaNationalLaw">
         <meta>
@@ -25,6 +26,27 @@
                     <FRBRauthor href="https://discover.sabinet.co.za/"/>
                 </FRBRManifestation>
             </identification>
+            <notes source="#source">
+                <note><p>English text signed by the President</p></note>
+            </notes>
         </meta>
+        <preface eId="preface" period="#period2">
+            <p class="title"><shortTitle>ESKOM CONVERSION ACT 13 OF 2001</shortTitle></p>
+            <longTitle>
+                <p>An Act to consolidate the Factories Acts 1937 to 1959 and certain other enactments relating to the safety, health and welfare of employed persons.</p>
+            </longTitle>
+            <p class="DateOfEnactment"><docDate date="1961-06-22">[22nd June 1961]</docDate></p>
+        </preface>
+        <body>
+            <section eId="section-1">
+                <num>1</num>
+                <heading>Definitions</heading>
+                <content>
+                    <p>In this Act, unless the context indicates otherwise-</p>
+                    <p><def>“Companies Act”</def> means the Companies Act, 1973 (Act 61 of 1973);</p>
+                    <p><def>“date of conversion”</def> means the date determined in terms of <ref eId="ref-1" href="https://discover.sabinet.co.za/webx/access/netlaw/13_2001_eskom_conversion_act.htm#section3">section 3</ref> (1);</p>
+                </content>
+            </section>
+        </body>
     </act>
 </akomaNtoso>
